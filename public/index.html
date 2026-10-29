@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090711" />
+    <meta
+      name="description"
+      content="Ziyokor ta'lim markazi — zamonaviy kasblar va sifatli ta'lim sari birinchi qadam."
+    />
+    <title>Ziyokor — Kelajagingiz shu yerdan boshlanadi</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a href="#home" class="logo">
+          <span class="logo-icon">Z</span>
+          ZIYOKOR<span class="dot">.</span>
+        </a>
+
+        <nav class="nav-links" id="navLinks" aria-label="Asosiy menyu">
+          <a href="#home" class="active">Bosh sahifa</a>
+          <a href="#courses">Kurslar</a>
+          <a href="#about">Biz haqimizda</a>
+          <a href="#teachers">Ustozlar</a>
+          <a href="#contact">Aloqa</a>
+        </nav>
+
+        <a href="#contact" class="nav-btn">Kursga yozilish <span>↗</span></a>
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Menyuni ochish"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+          <div class="hero-text reveal">
+            <div class="eyebrow">
+              <span class="pulse"></span> KELAJAK SARI BIRINCHI QADAM
+            </div>
+            <h1>
+              Bilim bilan <span class="gradient-text">kelajagingni</span> yarat.
+            </h1>
+            <p>
+              Ziyokor ta'lim markazi bilan yangi bilimlarni egallang, tajribali
+              ustozlardan o‘rganing va orzularingiz sari dadil qadam tashlang.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#courses" class="btn btn-primary"
+                >Kurslarni ko‘rish <span>↗</span></a
+              >
+              <a href="#about" class="btn btn-outline"
+                >Biz haqimizda <span>→</span></a
+              >
+            </div>
+
+            <div class="hero-features">
+              <span>✦ Amaliy darslar</span>
+              <span>✦ Tajribali ustozlar</span>
+              <span>✦ Zamonaviy ta'lim</span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="hero-center">
+              <div class="hero-symbol">Z</div>
+              <strong>ZIYOKOR</strong>
+              <small>EDUCATION CENTER</small>
+            </div>
+            <div class="floating-card card-one">
+              <span>✦</span>
+              <div><strong>Bilim</strong><small>Cheksiz imkoniyat</small></div>
+            </div>
+            <div class="floating-card card-two">
+              <span>⌘</span>
+              <div>
+                <strong>Kelajak</strong><small>Bugundan boshlanadi</small>
+              </div>
+            </div>
+            <div class="floating-card card-three">
+              <span>↗</span>
+              <div>
+                <strong>Rivojlanish</strong><small>Har kuni bir qadam</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-hint">PASTGA TUSHING <span>↓</span></div>
+      </section>
+
+      <section class="section courses-section" id="courses">
+        <div class="container">
+          <div class="section-top reveal">
+            <div>
+              <span class="section-tag">01 / TA'LIM YO‘NALISHLARI</span>
+              <h2>
+                O‘zingizga mos
+                <span class="gradient-text">kursni tanlang.</span>
+              </h2>
+              <p>
+                Qiziqishlaringiz va maqsadlaringizga mos yo‘nalishni tanlab,
+                o‘rganishni boshlang.
+              </p>
+            </div>
+            <a href="#contact" class="text-link"
+              >Barcha kurslar haqida so‘rash ↗</a
+            >
+          </div>
+
+          <div class="filters reveal" id="courseFilters">
+            <button class="filter-btn active" data-filter="all">
+              Barchasi
+            </button>
+            <button class="filter-btn" data-filter="it">IT</button>
+            <button class="filter-btn" data-filter="language">Tillar</button>
+            <button class="filter-btn" data-filter="education">Fanlar</button>
+          </div>
+
+          <div class="course-grid" id="courseGrid"></div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container about-grid">
+          <div class="about-visual reveal">
+            <div class="about-art">
+              <span class="art-small">ZIYOKOR / EDUCATION</span>
+              <span class="art-z">Z</span>
+              <div class="art-bottom">
+                <span>BILIM</span><span>TAJRIBA</span><span>KELAJAK</span>
+              </div>
+            </div>
+            <div class="about-sticker">LEARN<br />GROW<br />SUCCEED ↗</div>
+          </div>
+          <div class="about-content reveal">
+            <span class="section-tag">02 / BIZ HAQIMIZDA</span>
+            <h2>
+              Shunchaki o‘qish emas.
+              <span class="gradient-text">Haqiqiy rivojlanish.</span>
+            </h2>
+            <p>
+              Ziyokor — o‘rganishga intiladigan yoshlar uchun zamonaviy ta'lim
+              muhiti. Biz bilimni tushunarli, qiziqarli va amaliy shaklda
+              yetkazishga intilamiz.
+            </p>
+            <div class="about-list">
+              <div>
+                <span class="check">✓</span>
+                <div>
+                  <strong>Amaliy yondashuv</strong>
+                  <p>
+                    O‘rganilgan bilimlarni topshiriqlar va loyihalar orqali
+                    mustahkamlash.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <span class="check">✓</span>
+                <div>
+                  <strong>Qo‘llab-quvvatlovchi muhit</strong>
+                  <p>
+                    Savollar berish, izlanish va rivojlanish uchun qulay
+                    imkoniyat.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <span class="check">✓</span>
+                <div>
+                  <strong>Aniq maqsad</strong>
+                  <p>Har bir darsni yangi bilim va ko‘nikmaga aylantirish.</p>
+                </div>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary"
+              >Biz bilan bog‘lanish ↗</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section benefits-section">
+        <div class="container">
+          <div class="center-heading reveal">
+            <span class="section-tag">03 / NIMA UCHUN ZIYOKOR?</span>
+            <h2>
+              Ta'limga <span class="gradient-text">boshqacha qarash.</span>
+            </h2>
+            <p>
+              Bilim olish jarayonini samarali va qiziqarli qilishga e'tibor
+              qaratamiz.
+            </p>
+          </div>
+          <div class="benefit-grid">
+            <article class="benefit-card reveal">
+              <span class="benefit-icon">◈</span
+              ><span class="benefit-number">01</span>
+              <h3>Amaliy bilim</h3>
+              <p>
+                Nazariya bilan birga mustaqil mashqlar va real topshiriqlar.
+              </p>
+            </article>
+            <article class="benefit-card reveal">
+              <span class="benefit-icon">◎</span
+              ><span class="benefit-number">02</span>
+              <h3>Ustozlar ko‘magi</h3>
+              <p>
+                O‘rganish davomida tushunmagan mavzularingizni muhokama qilish.
+              </p>
+            </article>
+            <article class="benefit-card reveal">
+              <span class="benefit-icon">✧</span
+              ><span class="benefit-number">03</span>
+              <h3>Zamonaviy muhit</h3>
+              <p>Qulay o‘quv muhiti va bilimga intiladigan hamjamiyat.</p>
+            </article>
+            <article class="benefit-card reveal">
+              <span class="benefit-icon">↗</span
+              ><span class="benefit-number">04</span>
+              <h3>Doimiy rivojlanish</h3>
+              <p>Har bir bosqichda yangi ko‘nikmalarni shakllantirish.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section teachers-section" id="teachers">
+        <div class="container">
+          <div class="section-top reveal">
+            <div>
+              <span class="section-tag">04 / JAMOAMIZ</span>
+              <h2>
+                Sizga yo‘l ko‘rsatuvchi
+                <span class="gradient-text">ustozlar.</span>
+              </h2>
+              <p>
+                Ustozlarimiz haqidagi ma'lumotlar tez orada shu yerda e'lon
+                qilinadi.
+              </p>
+            </div>
+          </div>
+          <div class="teacher-placeholder reveal">
+            <div class="teacher-art">✦</div>
+            <div>
+              <span class="section-tag">ZIYOKOR TEAM</span>
+              <h3>Jamoamiz bilan tanishing</h3>
+              <p>
+                Ustozlarning ismi, mutaxassisligi va fotosuratlari admin panel
+                orqali qo‘shiladi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section">
+        <div class="container faq-grid">
+          <div class="reveal">
+            <span class="section-tag">05 / SAVOL-JAVOB</span>
+            <h2>
+              Ko‘p beriladigan <span class="gradient-text">savollar.</span>
+            </h2>
+            <p>
+              Kurslar bo‘yicha batafsil ma'lumot olish uchun biz bilan
+              bog‘lanishingiz mumkin.
+            </p>
+          </div>
+          <div class="faq-list reveal">
+            <details>
+              <summary>Kursga qanday yozilish mumkin? <span>+</span></summary>
+              <p>
+                Quyidagi ro‘yxatdan o‘tish formasini to‘ldiring. So‘rovingiz
+                ko‘rib chiqilgach, siz bilan bog‘laniladi.
+              </p>
+            </details>
+            <details>
+              <summary>Darslar qaysi vaqtda bo‘ladi? <span>+</span></summary>
+              <p>
+                Dars jadvali tanlangan kurs va guruhga bog‘liq. Aniq vaqtlarni
+                markazdan bilib olishingiz mumkin.
+              </p>
+            </details>
+            <details>
+              <summary>Oldindan bilim bo‘lishi kerakmi? <span>+</span></summary>
+              <p>
+                Talablar kursga qarab farq qiladi. Boshlang‘ich darajadagi
+                kurslar haqida ma'lumot so‘rashingiz mumkin.
+              </p>
+            </details>
+            <details>
+              <summary>Kurslar narxi qancha? <span>+</span></summary>
+              <p>
+                Narxlar va to‘lov shartlari bo‘yicha markaz bilan bog‘laning.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-content reveal">
+            <span class="section-tag">06 / BIZ BILAN BOG‘LANING</span>
+            <h2>
+              Kelajagingizni
+              <span class="gradient-text">bugundan boshlang.</span>
+            </h2>
+            <p>
+              O‘zingizga mos kursni tanlang va bog‘lanish uchun ma'lumot
+              qoldiring.
+            </p>
+            <div class="contact-note">
+              <span>✦</span> Birinchi qadam — boshlashga qaror qilish.
+            </div>
+          </div>
+          <form class="contact-form reveal" id="applicationForm">
+            <div class="form-heading">
+              <h3>Kursga ariza qoldiring</h3>
+              <p>Quyidagi maydonlarni to‘ldiring.</p>
+            </div>
+            <label for="fullName">Ism va familiya</label>
+            <input
+              id="fullName"
+              name="fullName"
+              type="text"
+              placeholder="Ismingiz va familiyangiz"
+              minlength="3"
+              maxlength="100"
+              required
+              autocomplete="name"
+            />
+            <label for="phone">Telefon raqam</label>
+            <input
+              id="phone"
+              name="phone"
+              type="tel"
+              placeholder="+998 90 123 45 67"
+              pattern="\+?[0-9\s()-]{9,20}"
+              required
+              autocomplete="tel"
+            />
+            <label for="courseSelect">Qiziqqan kursingiz</label>
+
+            <select id="courseSelect" name="course" required>
+              <option value="">Kursni tanlang</option>
+              <option value="Frontend dasturlash">Frontend dasturlash</option>
+              <option value="Backend dasturlash">Backend dasturlash</option>
+              <option value="Python dasturlash">Python dasturlash</option>
+              <option value="Ingliz tili">Ingliz tili</option>
+              <option value="Rus tili">Rus tili</option>
+              <option value="Matematika">Matematika</option>
+            </select>
+
+            <button class="btn btn-primary submit-btn" type="submit">
+              Ariza yuborish <span>↗</span>
+            </button>
+            <p
+              class="form-message"
+              id="formMessage"
+              role="status"
+              aria-live="polite"
+            ></p>
+            <small class="form-disclaimer"
+              >Hozircha demo: backend ulanmaguncha ariza serverga
+              yuborilmaydi.</small
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a href="#home" class="logo"
+              ><span class="logo-icon">Z</span> ZIYOKOR<span class="dot"
+                >.</span
+              ></a
+            >
+            <p>Bilim. Rivojlanish. Kelajak.</p>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Bosh sahifa</a><a href="#courses">Kurslar</a
+            ><a href="#about">Biz haqimizda</a><a href="#contact">Aloqa</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span id="year"></span> Ziyokor ta'lim markazi.</span
+          ><span>Bilim sari birga.</span>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-top" id="backTop" aria-label="Yuqoriga qaytish">
+      ↑
+    </button>
+  </body>
+</html>
